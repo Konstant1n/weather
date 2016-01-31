@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+*{
+	transition: all .1s ease-in;
+}
+
+html {
+	height: 100%;
+}
+body{
+	min-height: 100%;
+	background-color: #3399CC;
+	border-left: 20px solid #2B81AC;
+	border-right: 20px solid #2B81AC;
+	font-family:  “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: white;
+}
+body:before, body:after {
+	display:block;
+	content: "";
+	position: fixed;
+	background: #2B81AC;
+	left: 0;
+	right: 0;
+	height: 20px;
+}
+
+.section, header, footer {
+	max-width: 500px;
+	min-width: 350px;
+	margin: 0 auto;
+}
+.headline{
+	display: inline-block;
+	font-size: 16px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+.header>i.wi{
+	font-size: 15px;
+}
+
+
+.citys{
+	font-size: 0px;
+	text-align: center;
+}
+.cell{
+	border-top:3px solid white;
+	border-left:3px solid white;
+	display: inline-block;
+	font-size: 16px;
+	width: 25%;
+	height: 80px;
+}
+
+.cell.lisbon{
+	width: 50%;
+}
+
+.cell.san{
+	width: 50%;
+}
+
+.cell.sydney{
+	width: 100%;
+}
+
+.cell:nth-child(3), .cell:nth-child(7), .cell:nth-child(10), .cell:nth-child(11){
+	border-right:3px solid white;
+}
+
+.cell:last-child {
+	border-bottom:3px solid white;
+}
+
+span.town, span.temp, li>i {
+	position: relative;
+	top:12px;
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+li>i {
+	position: relative;
+	top:14px;
+	line-height: 1.8;
+	left: 2px;
+
+}
+
+span.temp {
+	opacity: 0.6;
+}
+
+i.wi {
+	font-size: 18px;
+}
+
+.footer{
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.lisbon {
+	background-color: #3399CC;
+}
+.paris {
+	background-color: #33CCCC;
+}
+.Belgrade{
+	background-color: #996699;
+}
+.Moscow{
+	background-color: #C24747;
+}
+.Tel{
+	background-color: #E2674A;
+}
+.Cair{
+	background-color: #FFCC66;
+}
+.NewYork{
+	background-color: #99CC99;
+}
+.Deihi{
+	background-color: #669999;
+}
+.Francisco{
+	background-color: #CC6699;
+}
+.san{
+	background-color: #33CCCC;
+}
+.Tokyo{
+	background-color: #339966;
+}
+.sydney{
+	background-color: #666699;
+}
+
+.citys{
+	background-color: white;
+	max-width: 500px;
+	min-width: 350px;
+	margin: 0 auto;
+}
+
+
+
+.citys:hover > li{
+opacity: 0.6;
+}
+
+
+.citys li:hover {
+	opacity: 1;
+}
+
